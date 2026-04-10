@@ -13,10 +13,11 @@ Bottomly dataset- http://bowtie-bio.sourceforge.net/recount/ExpressionSets/botto
 
 ## Tools
 1. RStudio
-2. BioConductor
-3. bowtie
+2. Bioconductor
+3. bowtie (datasets)
 
-## Packages required
+## R Packages required 
+### (most from bioconductor)
 gplots, devtools, Biobase, dplyr, RSkittleBrewer, org.Hs.eg.db, Annotationdbi, dendextend,
 preprocessCore, broom, snpStats, sva, bladderbatch, limma, edge, genefilter, qvalue,
 DESeq2, goseq, MatrixEQTL
