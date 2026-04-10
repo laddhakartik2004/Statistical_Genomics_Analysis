@@ -3,7 +3,7 @@
 ## Overview
 This repository contains my work and learning outcomes from the Statistics in Genomic Data Science course offered by Johns Hopkins University (Prof Jeff Leek). The project focuses on applying computational and statistical methods to analyze high-throughput genomic datasets and extract biologically meaningful insights. Scripts are rewritten and annotated to reflect my understanding.
 ## Dataset
-The dataset used in this project is derived from publicly available gene expression repositories.
+The datasets used in this project are derived from publicly available gene expression repositories.
 
 Bodymap dataset- http://bowtie-bio.sourceforge.net/recount/ExpressionSets/bodymap_eset.RData
 
