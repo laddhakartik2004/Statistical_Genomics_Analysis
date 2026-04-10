@@ -21,3 +21,6 @@ Bottomly dataset- http://bowtie-bio.sourceforge.net/recount/ExpressionSets/botto
 gplots, devtools, Biobase, dplyr, RSkittleBrewer, org.Hs.eg.db, Annotationdbi, dendextend,
 preprocessCore, broom, snpStats, sva, bladderbatch, limma, edge, genefilter, qvalue,
 DESeq2, goseq, MatrixEQTL
+
+## Clone my repository
+git clone https://github.com/laddhakartik2004/Genomic_Data_Analysis.git
