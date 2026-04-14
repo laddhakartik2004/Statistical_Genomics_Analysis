@@ -11,12 +11,27 @@ Montgomery-Pickrell dataset- http://bowtie-bio.sourceforge.net/recount/Expressio
 
 Bottomly dataset- http://bowtie-bio.sourceforge.net/recount/ExpressionSets/bottomly_eset.RData
 
+### for goseq and DESeq2
+Install the packages from Bioconductor manager using
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("goseq")
+
+Similarly, replace the package name with DESeq2 to download it. To load system files from goseq,
+
+temp_data =read.table(system.file("extdata","Li_sum.txt",
+                                     package="goseq"),sep="\t",
+                                     header=TRUE,
+                                     stringsAsFactors=FALSE)
+
 ### for eQTL (Expression Quantitative Trait Loci)
 Install MatrixEQTL using
 
 install.packages("MatrixEQTL")
 
-Then load the data from the base directory using
+Then load sample data from the base directory using
 
 base.dir = find.package("MatrixEQTL")
 
