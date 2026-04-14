@@ -15,12 +15,11 @@ Bottomly dataset- http://bowtie-bio.sourceforge.net/recount/ExpressionSets/botto
 Install the packages from Bioconductor manager using
 
 
- if (!requireNamespace("BiocManager", quietly = TRUE))
+    if (!requireNamespace("BiocManager", quietly = TRUE))
 
     install.packages("BiocManager")
 
-
- BiocManager::install("goseq")
+    BiocManager::install("goseq")
 
 
 Similarly, replace the package name with DESeq2 to download it. To load system files from goseq,
