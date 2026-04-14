@@ -12,16 +12,17 @@ Montgomery-Pickrell dataset- http://bowtie-bio.sourceforge.net/recount/Expressio
 Bottomly dataset- http://bowtie-bio.sourceforge.net/recount/ExpressionSets/bottomly_eset.RData
 
 ### for eQTL (Expression Quantitative Trait Loci)
-'''Install MatrixEQTL using
-install.packages("MatrixEQTL")
-'''
+Install MatrixEQTL using
 
-'''Then load the data from the base directory using
+install.packages("MatrixEQTL")
+
+Then load the data from the base directory using
+
 base.dir = find.package("MatrixEQTL")
 SNP_file_name = paste(base.dir, "/data/SNP.txt", sep="");
 expression_file_name = paste(base.dir, "/data/GE.txt", sep="")
 covariates_file_name = paste(base.dir, "/data/Covariates.txt", sep="")
-'''
+
 
 ## Tools
 1. RStudio
