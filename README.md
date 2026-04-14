@@ -30,9 +30,9 @@ To load system files from goseq,
 
                                     package="goseq"),sep="\t", #columns separated by tabs
                                     
-                                    header=TRUE, #first row is column names
+                                    header=TRUE,               #first row is column names
                                     
-                                    stringsAsFactors=FALSE) #prevents data from converting into factors
+                                    stringsAsFactors=FALSE)    #prevents data from converting into factors
 
 ### for eQTL (Expression Quantitative Trait Loci)
 Install MatrixEQTL using
